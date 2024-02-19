@@ -1,0 +1,12 @@
+// moongodb all commands 
+*first open cmd write mongo 
+*use dbs => to show all dbs
+*use college => this how you use a database 
+*show collections =>to show all collections 
+*db.student.find() =>yh record ko show krt h ache waye m pretty() s ese hota h 
+*db.student.insertOne({name:"shu",profession:"javascript"})
+*db.student.insertMany({name:"shu",profession:"software",name:"radha",profession:"goddess"})
+*db.student.find({name:"shu"}) => to show particular record
+*db.student.find({name:"shu"},{name:1}).pretty() => iss yh hogya ki yh name field ko hi dikh gya
+*db.student.find({fee:true}).pretty().limit(1) = sif ek hi document mil gya 
+db.student.find({fee:true}).pretty().limit(1).skip(1)
