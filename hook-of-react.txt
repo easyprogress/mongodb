@@ -1,0 +1,24 @@
+.hook-of-reactusestate in react js is used to  maintain the stare and hold the data and  it is a hook method of react js that 
+add state variable  to our components
+import { useState } from 'react';
+function MyComponent() {
+const [age, setAge] = useState(42);
+const [name, setName] = useState('Taylor') 
+_________________________________________________________
+usereducer : usereduce is used to maintain a state but  this maintain with the array or object and 
+it is used with too many state transitions ,and it used for complex bussiness logic 
+____________________________________________________________________________
+useeffect : n React.js, the useEffect hook is a function that allows you to perform  behaviors that are not directly 
+related to rendering the user interface but may involve things like data fetching,
+ subscriptions, manual DOM manipulations, or setting up and cleaning up timers.
+_____________________________________________________________________________
+useRef is a React Hook that lets you reference a value that’s not needed for rendering. is used to manipulate direct to the dom
+*memorize function
+usecallback function  : yh  performance optimization k liya hota h or bar bar function ki copy create nhi kty h 
+ yh return krt h memorize function jb dependency yh kch update ho gya tabi yh update krgy 
+usememo bhi same ha bas yh memorize krt h value ko  toh  yh value bar bar update nhi hogyi 
+_________________________________________________
+ usecontext: is used to send data from parent to child but in parent there are many child so we can pass data through context 
+hook to parent cto child c without even distrubing  child a and child b;
+
+ 
